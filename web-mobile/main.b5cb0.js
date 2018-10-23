@@ -135,7 +135,7 @@ window.boot = function () {
         BK.Script.loadlib();
     }
     else {
-        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.40bee.js';
+        var bundledScript = settings.debug ? 'src/project.dev.js' : 'src/project.69d19.js';
         if (jsList) {
             jsList = jsList.map(function (x) {
                 return 'src/' + x;
@@ -147,9 +147,9 @@ window.boot = function () {
         }
     }
 
-    // anysdk scripts
+    // ANYS scripts
     if (cc.sys.isNative && cc.sys.isMobile) {
-        jsList = jsList.concat(['src/anysdk/jsb_anysdk.js', 'src/anysdk/jsb_anysdk_constants.js']);
+        jsList = jsList.concat(['src/ANYS/jsb_ANYS.js', 'src/ANYS/jsb_ANYS_constants.js']);
     }
 
     var option = {
@@ -166,7 +166,7 @@ window.boot = function () {
     cc.game.run(option, onStart);
 };
 
-// main.e37b7.js is qqplay and jsb platform entry file, so we must leave platform init code here
+// main.b5cb0.js is qqplay and jsb platform entry file, so we must leave platform init code here
 if (false) {
     BK.Script.loadlib('GameRes://src/settings.js');
     BK.Script.loadlib();
@@ -190,7 +190,7 @@ if (false) {
     window.boot();
 }
 else if (window.jsb) {
-    require('src/settings.2c382.js');
+    require('src/settings.97d21.js');
     require('src/cocos2d-jsb.js');
     require('jsb-adapter/engine/index.js');
     window.boot();
