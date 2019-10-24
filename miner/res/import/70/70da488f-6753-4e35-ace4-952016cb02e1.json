@@ -1,1 +1,1 @@
-{"__type__":"cc.SpriteFrame","content":{"name":"tile101","texture":"e9HaI0sxpPTa2LW+ZOMjJC","rect":[0,0,32,32],"offset":[0,0],"originalSize":[32,32],"capInsets":[0,0,0,0]}}
+{"__type__":"cc.SpriteFrame","content":{"name":"obstacle000","texture":"118fce170","rect":[73,493,64,64],"offset":[0,0],"originalSize":[64,64],"capInsets":[0,0,0,0]}}
